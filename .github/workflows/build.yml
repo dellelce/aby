@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: docker build -t ghcr.io:dellelce/abashine . && docker push ghcr.io:dellelce/abashine
+      - run: docker build -t ghcr.io/dellelce/abashine . && docker push ghcr.io/dellelce/abashine
